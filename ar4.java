@@ -7,7 +7,7 @@ public class ar4 {
       3
     };
     int x;
-    for (int i = 0; i < a.length; i++) {
+    for (int i = 0; i < a.length; i++) { // using a loop we for go through all the element array
       for (int j = 1; j < a.length; j++) {
         if (a[j] < a[j - 1]) {
           x = a[j];
